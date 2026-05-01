@@ -87,6 +87,32 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#e3aaef"
+    - Name: LED1
+      Type: Led
+      Children:
+      - Name: Active
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 210.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 160.0
 - Name: ScreenTS
   Id: g=dd5d102462d0adb71ae1c4602783df1e
   Supertype: Screen
